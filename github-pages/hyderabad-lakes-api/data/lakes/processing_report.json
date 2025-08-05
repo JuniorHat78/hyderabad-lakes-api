@@ -1,0 +1,192 @@
+{
+  "processing_date": "2025-08-03T16:58:48.209414",
+  "methodology": "Clean dataset with only water_classes source",
+  "yearly_data": {
+    "1988": {
+      "count": 1056,
+      "area_km2": 74.46,
+      "source": "water_classes"
+    },
+    "1989": {
+      "count": 636,
+      "area_km2": 70.32,
+      "source": "water_classes"
+    },
+    "1990": {
+      "count": 1026,
+      "area_km2": 96.06,
+      "source": "water_classes"
+    },
+    "1991": {
+      "count": 1005,
+      "area_km2": 92.23,
+      "source": "water_classes"
+    },
+    "1992": {
+      "count": 914,
+      "area_km2": 73.98,
+      "source": "water_classes"
+    },
+    "1993": {
+      "count": 938,
+      "area_km2": 56.3,
+      "source": "water_classes"
+    },
+    "1994": {
+      "count": 995,
+      "area_km2": 58.16,
+      "source": "water_classes"
+    },
+    "1995": {
+      "count": 1402,
+      "area_km2": 107.95,
+      "source": "water_classes"
+    },
+    "1996": {
+      "count": 1356,
+      "area_km2": 107.76,
+      "source": "water_classes"
+    },
+    "1997": {
+      "count": 983,
+      "area_km2": 86.22,
+      "source": "water_classes"
+    },
+    "1998": {
+      "count": 1421,
+      "area_km2": 106.46,
+      "source": "water_classes"
+    },
+    "1999": {
+      "count": 1028,
+      "area_km2": 92.69,
+      "source": "water_classes"
+    },
+    "2000": {
+      "count": 974,
+      "area_km2": 87.65,
+      "source": "water_classes"
+    },
+    "2001": {
+      "count": 921,
+      "area_km2": 76.38,
+      "source": "water_classes"
+    },
+    "2002": {
+      "count": 752,
+      "area_km2": 64.88,
+      "source": "water_classes"
+    },
+    "2003": {
+      "count": 828,
+      "area_km2": 56.52,
+      "source": "water_classes"
+    },
+    "2004": {
+      "count": 732,
+      "area_km2": 47.7,
+      "source": "water_classes"
+    },
+    "2005": {
+      "count": 1294,
+      "area_km2": 90.68,
+      "source": "water_classes"
+    },
+    "2006": {
+      "count": 1185,
+      "area_km2": 90.24,
+      "source": "water_classes"
+    },
+    "2007": {
+      "count": 967,
+      "area_km2": 59.96,
+      "source": "water_classes"
+    },
+    "2008": {
+      "count": 1295,
+      "area_km2": 84.91,
+      "source": "water_classes"
+    },
+    "2009": {
+      "count": 1366,
+      "area_km2": 83.85,
+      "source": "water_classes"
+    },
+    "2010": {
+      "count": 1414,
+      "area_km2": 80.81,
+      "source": "water_classes"
+    },
+    "2011": {
+      "count": 1231,
+      "area_km2": 87.97,
+      "source": "water_classes"
+    },
+    "2012": {
+      "count": 792,
+      "area_km2": 50.91,
+      "source": "water_classes"
+    },
+    "2013": {
+      "count": 1230,
+      "area_km2": 74.84,
+      "source": "water_classes"
+    },
+    "2014": {
+      "count": 1101,
+      "area_km2": 70.03,
+      "source": "water_classes"
+    },
+    "2015": {
+      "count": 759,
+      "area_km2": 42.23,
+      "source": "water_classes"
+    },
+    "2016": {
+      "count": 1510,
+      "area_km2": 89.61,
+      "source": "water_classes"
+    },
+    "2017": {
+      "count": 1563,
+      "area_km2": 96.97,
+      "source": "water_classes"
+    },
+    "2018": {
+      "count": 1348,
+      "area_km2": 82.68,
+      "source": "water_classes"
+    },
+    "2019": {
+      "count": 1260,
+      "area_km2": 58.23,
+      "source": "water_classes"
+    },
+    "2020": {
+      "count": 1830,
+      "area_km2": 124.99,
+      "source": "water_classes"
+    },
+    "2021": {
+      "count": 1709,
+      "area_km2": 125.68,
+      "source": "water_classes"
+    }
+  },
+  "total_water_bodies": 38821,
+  "total_area_km2": 2750.27,
+  "data_range": "1988-2021",
+  "excluded_years": {
+    "1980-1987": "Early Landsat data quality issues or no data",
+    "2022-2024": "No reliable water_classes data, only problematic flood/SAR data"
+  },
+  "data_quality_notes": [
+    "Clean dataset includes only years with reliable water_classes data (1988-2021)",
+    "Source: JRC Global Surface Water yearly classification",
+    "Water values extracted: 2 (seasonal water) and 3 (permanent water)",
+    "Excluded problematic years with flood mapping or SAR overdetection",
+    "Consistent methodology ensures valid year-to-year comparisons",
+    "Major lakes (>0.5 km\u00b2) range: 8-24 per year",
+    "Total water bodies range: 636-1830 per year"
+  ]
+}
